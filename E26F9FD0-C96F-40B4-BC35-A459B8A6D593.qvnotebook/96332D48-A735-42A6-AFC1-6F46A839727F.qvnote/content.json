@@ -1,0 +1,13 @@
+{
+  "title": "Overview",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Overview\n\nSequence the EVE from a bunch of species.\n\nStock center's leftover flies. \n\nWhat is the range of possiblities for EVE enhancer?  \n\n### Experimental design\n\nHow many flies?\n\nThree individuals from each group being thrown away. \nCan I get the same species?\n\nI believe I figured out a way that is high throughput and pretty cheap. The flies will be sequenced on 1 or two lanes.  \n\n### 1. Degenerate Primers\n\n### 2.  PCR 1000bp region\n\n### 3a. Illumina libraries\n\nI would collaborate with former collegues and use their new library making kit, they just recieved funding to make sequencing kits. I have used their protocol before to make libraries with plant DNA, and for their verification tests have been using Drosophila, and would like to continue to use. Per sample the libries to be made should \n\n500 samples = 1,500 \n\n### 3b. Sanger Sequencing is sensitive and pair end reads cost $350x2 (paired end) a plate.\n\n$5 a sample, index $1,000 per lane. \n\n500 samples = $1,000 \n\n### Alternative approch\n\nSquash a bunch of flies and PCR the pooled fly samples. \n\n1. PCR with degenerate primers - when you PCR something that has 50 differnet flies DNA. **Problems** It is not know if the degenerate primers will preferentially sequence certain regions.\n2. Index \n3. Sequence a lane. \n\n\n\n\n\n\n"
+    },
+    {
+      "type": "text",
+      "data": "<br>"
+    }
+  ]
+}

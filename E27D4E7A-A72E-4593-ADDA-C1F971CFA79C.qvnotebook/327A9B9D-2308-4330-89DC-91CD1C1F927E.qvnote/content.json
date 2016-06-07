@@ -1,0 +1,10 @@
+{
+  "title": "Analysis_2 ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "## 1 Liftover\n\nfor filename in *chain; do ~/genomicsTools/liftOver/liftOver -minMatch=0.1 -multiple ../../pipeline_output_2/1.berman_enhancers.bed $filename ../../pipeline_output_2/2.liftOver/output.$filename.bed ../../pipeline_output_2/2.liftOver/unlifted.$filename.bed; done\n\n## Count\n\nwc -l *bed\n\n## Append species name\n\nfor file in output*; do awk 'BEGIN{OFS=\"\\t\"}{print $0, FILENAME}' $file > fixed.$file; done\n\n## concatenate \n\ncat fixed.output.Dmel_to_MEMB00* > 2a.liftover_output_ALL.bed\n\n## To check \n\nwc -l *ALL.bed\n\n## Clean up in R using 2a.liftover.FastaFromBed\n\n## Run fasta from bed\nfor filename in *.fa; do ~/genomicsTools/bedtools2/bin/fastaFromBed -fi $filename -bed ../../pipeline_output_2/2.liftOver/2b.outputForFastaFromBED.bed -fo ../../pipeline_output_2/3.fasta_creation/fastaFromBED_output_$filename -name; done\n\n## concatenate\n\ncat fastaFromBED_output_MEMB00* > 3.fastaFromBED_ALL.fa\n\n# check in full directory\ngrep -rc \"^>\" *\n\n# extract  enhancerNames\n\ncat 3.fastaFromBed_ALL.fa | bioawk -c fastx ' $name  { print $name }' | grep -o '^[^|]*' | sed '/^\\s*$/d' | sort | uniq > enhancerNames\n\n# to make .fa by enhancerName\n\nwhile read line; do cat 3.fastaFromBed_ALL.fa | bioawk -cfastx ' $name ~ /'$line'/ { print \">\" $name \"\\n\" $seq }' >> ../4.enhancer_alignment/$line.fa; done < enhancerNames\n\n\n"
+    }
+  ]
+}

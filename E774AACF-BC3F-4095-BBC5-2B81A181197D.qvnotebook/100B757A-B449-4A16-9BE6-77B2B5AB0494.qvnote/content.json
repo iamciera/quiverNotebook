@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM003",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nThis is a follow-up to PCR CM001.  The purpose of this is to see if DP\\_evenskipped2_F1 and DP\\_evenskipped2_R1 work in all species. \n\n## DNA extraction\n\nNeed to get these species from Holli:\n\n- [x] _D. yakuba_\n- [x] _D. psuedoobscura_\n- [x] _D. anassae_\n- [x] _D. erecta_\n- [x] _D. mojavensis_\n- [x] _D. willstoni_\n- [x] _D. mauritana_\n- [x] _D. ruganilis_\n\n## PCR\n\n1. _D. anassae_\n2. _D. erecta_\n3. _D. mauritana_\n4. _D. mojavensis_\n5. _D. psuedoobscura_\n6. _D. ruganilis_\n7. _D. willstoni_ \n8. _D. yakuba_\n9. blank\n\n## Program\n\nRepeat Steps 2 - 4: 35X\n\n| step | temp |  time  |\n|------|------|--------|\n| 1    | 95   | 30 sec |\n| 2    | 95   | 15 sec |\n| 3    | 58   | 1 min  |\n| 4    | 72   | 2 min  |\n| 5    | 72   | 1 min  |\n| 6    | 4    | hold   |\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Designing_primers_other",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Forward Primers - eve_260-hsp70lacZ\n### eve_VT14361_F1\n\n![Screen Shot 2016-02-24 at 3.54.11 PM.png](quiver-image-url/7F6FFF319B6959C0D2B8CB15F2921676.png)![Screen Shot 2016-02-24 at 3.55.20 PM.png](quiver-image-url/EB99CDC4777A576D248AC814340CE582.png)\n\nPrimer Name eve_VT14361_F1\n17bp F\n\n11/16 sequence type1 : gtgaccgccgcacagtc\n4/16  sequence type2 : atgaccgccgtacagtc\n1/16  sequence type3 : gtgaccgccgcacagtg\n\n### eve_VT14361_F2\n\n![Screen Shot 2016-02-24 at 4.13.45 PM.png](quiver-image-url/C8292973CA662C7DE0E18BB6BE88003B.png)![Screen Shot 2016-02-24 at 4.13.45 PM.png](quiver-image-url/C8292973CA662C7DE0E18BB6BE88003B.png)\n\n12/16 sequence type 1 : atgcacggataccgaaccta\n2/16  sequence type 2 : atgcacggatatcgaaccta\n1/16                    atgcacggatacataaccta\n4/16                    atgcacggataccgaacata\n\n### eve_VT14361_F3 - Possible region\n\n![Screen Shot 2016-02-24 at 4.21.38 PM.png](quiver-image-url/803F71D41DF6B80F5E65000298DB16C9.png)\n\n"
+    }
+  ]
+}

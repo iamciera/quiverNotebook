@@ -1,0 +1,9 @@
+{
+  "title": "Visualization",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "I would like to use d3 to create simulations which are output by my models to explore parameters. I could just start with basics including\n\n1\\. box plot simulation <http://bl.ocks.org/mbostock/4061502>\n\n2\\. simulation mapping transcription factor binding sites.\n\n## d3 learning \n\n* <http://blockbuilder.org/>\n* <https://github.com/mbostock/d3/wiki/Gallery>\n* <https://github.com/mbostock/d3/wiki/Tutorials>\n\n## Radar Charts\n\n1. [D3 example1](http://bl.ocks.org/nbremer/6506614)\n2. [Normalization for Radar Plot](http://stackoverflow.com/questions/4883874/how-to-normalize-statistics-for-a-radar-chart)\n\n"
+    }
+  ]
+}

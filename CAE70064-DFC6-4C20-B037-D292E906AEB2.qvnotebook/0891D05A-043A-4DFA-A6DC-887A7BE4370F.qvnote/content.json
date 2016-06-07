@@ -1,0 +1,14 @@
+{
+  "title": "Information Theory",
+  "cells": [
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "## R Shannons Algorithm for uncertainty\n# Four symbols equal probability \nmystring <- c('A', 'T', 'G', 'C')\n\nmyfreqs <- table(mystring)/length(mystring)\n# vectorize\nmyvec <- as.data.frame(myfreqs)[,2]\n# H in bit\n-sum(myvec * log2(myvec))\n\n## If all symbols have equal probability, then you can use \n## H = log2(M)\n\n## For example four symbols equeal proability\nlog2(4)\n\n"
+    },
+    {
+      "type": "markdown",
+      "data": "This can be used to calulate the probability that certain motifs will be present.  Have to look into further.  Especially useful for Markov Chain probability states.\n\n"
+    }
+  ]
+}

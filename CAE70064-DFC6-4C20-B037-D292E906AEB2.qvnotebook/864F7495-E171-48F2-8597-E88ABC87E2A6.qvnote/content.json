@@ -1,0 +1,9 @@
+{
+  "title": "Hidden_Markov_Models",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "Tutorial: [https://inovancetech.com/hmm-tutorial-1.html](https://inovancetech.com/hmm-tutorial-1.html)\n\nPackage in R: [https://cran.r-project.org/web/packages/HiddenMarkov/index.html](https://cran.r-project.org/web/packages/HiddenMarkov/index.html)\n\nYet another simple tutorial: [http://a-little-book-of-r-for-bioinformatics.readthedocs.org/en/latest/src/chapter10.html](http://a-little-book-of-r-for-bioinformatics.readthedocs.org/en/latest/src/chapter10.html)"
+    }
+  ]
+}

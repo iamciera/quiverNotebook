@@ -1,0 +1,9 @@
+{
+  "title": "Scalable Machine Learning in R and Python with H20",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "H2O makes Open source machine learning technology. \n\nBenchmarking project.\n\nH2O is a company and software.  Implementing algorithms from Trevor Hastie, Rob Tibshirani Stephen Boyd. \n\nH2O is a platform that was written in java and all other sources interact through an API, different rows of a dataset are on different machines. \n\nSpark is the most popular.  Moving data is the biggest problem in machine learning. \nYou shouldn’t have to sample your data to do machine learning.\nCurrent Algorithm Overview.  All the algorithms are written for CPU?? Some times algorithms work better on GPU. \n\nH2O was built to run on Amazon EC2. If you are have access to a cluster you can use it there. License as Apache 2.0. It is meant to be accessible for people who are not familiar with distributed …  \n\n## R Package \n\nYou can get from CRAN, but it is better if you download from the website.  You can do the web munging IN H2O.  You can use the same syntax as you would use in R. You can just ask them to add it if it is not already there. \n\n1. Start H2O cluster from R. \n2. Load in Data\n3. H2O in R: Train and Test Data\n4. Plotting\n5. \n\nH2O Ensemble: Super Learner basically trains the data on all models and then combines them.  Implemented for regression and binary . \n\n## Tutorial\n\nValidation vs test set?  \n\nKey value store?  Storing….\n\n## H2O Flow\n"
+    }
+  ]
+}

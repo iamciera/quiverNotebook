@@ -1,0 +1,9 @@
+{
+  "title": "Target Enrichment  Capture",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "**PCR**\n\nUniplex PCR - uses one primer \nMultiples PCR - using multiple primers\n\n**Molecular inversion probes**\n\nThe gaps between the flanking sequences are filled and ligated to form a circular DNA fragment. Probes that did not undergo reaction remain linear and are removed using exonucleases. Uses This method is suggested to be useful for small numbers of targets in a large number of samples. Major disadvantage of this method for target enrichment is the capture uniformity as well as the cost associated with covering large target sets.\n\nMIP oligonucleotides can be costly and dif- ficult to obtain in large numbers to cover large target sets.\n\n**Hybrid Capture**\n\nUses microarrays, but this doesn't seem very useful.\n\n**In Solution Capture**\n\nThis uses custom oglios.  This might be a good option. \n\n**Primer extention capture**\n\n[http://science.sciencemag.org/content/sci/325/5938/318.full.pdf](http://science.sciencemag.org/content/sci/325/5938/318.full.pdf)\n"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM002",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nThis is a follow-up to PCR CM001.  \n\n1. The purpose of this is to see if DP\\_evenskipped2_F1 and DP\\_evenskipped2_R1 work in all species. \n2. Also, I want to see if I can higher the temperature to get a cleaner band.\n\n## DNA Extraction\n\nExtracted by Carolyn except the species that were run in CM001.\n\n## Samples \n\n1. _D. birchii_\n2. _D. buskii_\n3. _D. hydei_\n4. _D. immigrans_\n5. _D. melanogastor_\n6. _D. persimilis_\n7. _D. pulchrella_\n8. _D. serrata_\n9. _D. simulans_\n10. _D. sechellia_\n11. _D. virilis_\n12. blank\n\nRepeat Steps 2 - 4: 35X\n\n| step | temp |  time  |\n|------|------|--------|\n| 1    | 95   | 30 sec |\n| 2    | 95   | 15 sec |\n| 3    | 58   | 1 min  |\n| 4    | 72   | 2 min  |\n| 5    | 72   | 1 min  |\n| 6    | 4    | hold   |\n\n![2016-03-10_cm02.png](quiver-image-url/3A9BD397ADA36E4680A7A2F421BD5196.png)\n\n## Results\n\nAll seemed to work except #7 (_D. pulchrella_).  There are two bands for 5 (_D. melanogaster_) and (_D. persimilis_).  The _D. melanogaster_ was from carolyn's samples, so different from PCR001, but there was a simlilar double band in PCR001 for _D. melanogaster_.  \n\n## Conclusions\n\nThe double bands on certain species will be a problem when amplifying in mass, because I will have to cut the bands. If I do Sanger.  If I do Illumina, this may not be a problem. \n\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "TFBS prediction and motif finding",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## TFBSTools\n\nSo your options are \n\n1. Find the motifs that exist within the sequences.  So based on conservation \n\nsource(\"http://bioconductor.org/biocLite.R\")\nbiocLite(\"TFBSTools\")\n\n2. You can search through TFBS library using Z algorithm: \n\n[https://ivanyu.me/blog/2013/10/15/z-algorithm/](https://ivanyu.me/blog/2013/10/15/z-algorithm/)\n\nJust create a loop.\n\n## Looks like this package is the best\n\n[ ] Read and understand\n\n[Phstcons](http://compgen.cshl.edu/phast/phastCons-HOWTO.html)\n\n## Motif Binding \n\n[http://web.cs.ucdavis.edu/~filkov/234/motiffinding.pdf](http://web.cs.ucdavis.edu/~filkov/234/motiffinding.pdf)"
+    }
+  ]
+}

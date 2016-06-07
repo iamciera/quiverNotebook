@@ -1,0 +1,9 @@
+{
+  "title": "BioPython",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## BioPython\n\nUsing BioPython seems like the best way to deal with many different types of alignments. \n\nYou can also use this to combine many different alignments. \n\n**6.2.2 Getting your alignment objects as formatted strings**\n\nBasically you can look at each alignment based on column or position.  \n\n    >>> print(alignment[:, 9:])\n    SingleLetterAlphabet() alignment with 7 rows and 43 columns\n    ATEAMDSLKTQAIDLISQTWPVVTTVVVAGLVIRLFKKFSSKA COATB_BPIKE/30-81\n    ATEAMDSLKTQAIDLISQTWPVVTTVVVAGLVIKLFKKFVSRA Q9T0Q8_BPIKE/1-52\n    ATEAMNSLKTQATDLIDQTWPVVTSVAVAGLAIRLFKKFSSKA COATB_BPI22/32-83\n    AKAAFNSLQASATEYIGYAWAMVVVIVGATIGIKLFKKFTSKA COATB_BPM13/24-72\n    AKAAFDSLQASATEYIGYAWAMVVVIVGATIGIKLFKKFASKA COATB_BPZJ2/1-49\n    AKAAFDSLQASATEYIGYAWAMVVVIVGATIGIKLFKKFTSKA Q9T0Q9_BPFD/1-49\n    AKAAFDSLTAQATEMSGYAWALVVLVVGATVGIKLFKKFVSRA COATB_BPIF1/22-73\n    \n    \nThere has to be a way to do conservation scores based on this.  Maybe even a way to blast the regions for TFBS. Then I can isolate certain positions for analysis (?). The best way \n\n**6.3.2 Alignments as arrays**\n\nimport numpy as np\nfrom Bio import AlignIO\nalignment = AlignIO.read(\"PF05371_seed.sth\", \"stockholm\")\nalign_array = np.array([list(rec) for rec in alignment], np.character)\nprint(\"Array shape %i by %i\" % align_array.shape)\nArray shape 7 by 52\n\n"
+    }
+  ]
+}

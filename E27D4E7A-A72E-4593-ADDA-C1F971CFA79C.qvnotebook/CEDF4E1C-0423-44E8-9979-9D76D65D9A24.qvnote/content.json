@@ -1,0 +1,10 @@
+{
+  "title": "Analysis_3",
+  "cells": [
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "## Making new pipeline\n\nfor filename in *chain; do ~/genomicsTools/liftOver/liftOver -minMatch=0.1 -multiple ../../pipeline_output_3/1.kvon_redfly_BED4_23April2016.bed $filename ../../pipeline_output_3/2.liftOver/output.$filename.bed ../../pipeline_output_3/2.liftOver/unlifted.$filename.bed; done\n\n## Add speieces identifier\n\nfor file in output*; do awk 'BEGIN{OFS=\"\\t\"}{print $0, FILENAME}' $file > fixed.$file; done\n\n## Cat\n\ncat fixed.output.Dmel_to_MEMB00* > 2a.liftover_output_ALL.bed\n\n## clean up bedfile name.  `2.cleanLiftOverOutputBedfile.R` In R.\n\n## Open R\nR\n\nsource('2.cleanLiftOverOutputBEDfile.R')\n\nquit('yes')\n\n## Make Fasta files\n\nfor filename in *.fa; do ~/genomicsTools/bedtools2/bin/fastaFromBed -fi $filename -bed ../../pipeline_output_3/2.liftOver/2b.outputForFastaFromBED.bed -fo ../../pipeline_output_3/3.fasta_creation/fastaFromBED_output_$filename -name; done\n\n## Cat\n\ncat fastaFromBED_output_MEMB00* > 3.fastaFromBED_ALL.fa\n\n## Subset by plus and minus strand:\n\n# for plus \n\ncat 3.fastaFromBed_ALL.fa | bioawk -cfastx ' $name ~ /'\\\\+'/ { print \">\" $name \"\\n\" $seq }' >> plus.fa\n\n# for minus \n\ncat 3.fastaFromBed_ALL.fa | bioawk -cfastx ' $name ~ /\\|\\-/ { print \">\" $name \"\\n\" $seq }' >> minus.fa\n\n## Reverse complement minus strand\n\n~/genomicsTools/seqtk/seqtk seq -r minus.fa > reversed_minus.fa\n\n## Gets list of unique enhancerNames\n\ncat 3b.fastaFromBed_ALL.fa | bioawk -c fastx ' $name  { print $name }' | grep -o '^[^|]*' | sed '/^\\s*$/d' | sort | uniq > enhancerNames\n\n## Add in Drosophila sequences\n\ncat ../../pipeline_output_1/3.fasta_creation/fastaFromBED_dm6.fa >> 3b.fastaFromBED_ALL.fa\n\n\n##On Linux System\nfor filename in *chain; do ~/genomicsTools/liftOver/liftOver -minMatch=0.1 -multiple ../../pipeline_output_3/1.kvon_redfly_BED4_23April2016.bed $filename ../../pipeline_output_3/2.liftOver/output.$filename.bed ../../pipeline_output_3/2.liftOver/unlifted.$filename.bed; done\n"
+    }
+  ]
+}

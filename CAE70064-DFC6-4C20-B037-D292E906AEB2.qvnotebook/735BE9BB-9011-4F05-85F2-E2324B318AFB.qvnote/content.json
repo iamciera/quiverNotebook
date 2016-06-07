@@ -1,0 +1,9 @@
+{
+  "title": "PhastCons",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "PhastCons essentially does three things: it produces base-by-base conservation scores (as displayed in the conservation tracks in the UCSC browser), it produces predictions of discrete conserved elements (as displayed in the \"most conserved\" tracks in the browser), and it estimates free parameters. \n\n### Data to play with\n\nDrosophila Alignments: [http://hgdownload.cse.ucsc.edu/goldenPath/dm6/multiz27way/](http://hgdownload.cse.ucsc.edu/goldenPath/dm6/multiz27way/)\n\nBasic usage:\n\n`phastCons [OPTIONS] alignment [cons.mod,]noncons.mod > scores.wig`\n\nAs input, PhastCons takes a multiple alignment, a phylogenetic model for conserved regions, and a phylogenetic model for nonconserved regions.\n\n## Alignment \n\nWhat is the format for the alignment?\n `--msa-format`   \n \nI believe one of the main problems is working with these maf files. I think I need to fully understand this and possibly change my .fasta alignments to .maf.  Somehow.\n\n[ ] learn .maf by using Drosophila species\n[ ] convert fasta to .maf\n[ ] \n\n\n\n"
+    }
+  ]
+}

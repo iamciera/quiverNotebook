@@ -1,0 +1,9 @@
+{
+  "title": "Analysis 1c_Top RedFly_Alignment ",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Visualize alignments\n\nhttps://sourceforge.net/projects/adoma/\n\n## Alignment\n\n[MAFT](http://mafft.cbrc.jp/alignment/server/) - Looks most updates: \n\nAlignment from [Hare et al. 2008](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0020130): Modified the software we use to identify conserved binding sites [39] to recursively recover overlapping binding sites from multiple alignments, and assumed that these were orthologous binding sites.\n\n## Muscle\n\nRun default settings\n\n`~/genomicsTools/muscle -in 1.extracted_output/oc_otd-186.fa -out 2.muscle_output/muscle_oc_otd-186.fa`\n\nRun default settings on all files\n\n    for filename in *.fa; do ~/genomicsTools/muscle -in $filename -out ../5.output_alignments/output_$filename;\n    done\n\n\n\n\n\n"
+    }
+  ]
+}
