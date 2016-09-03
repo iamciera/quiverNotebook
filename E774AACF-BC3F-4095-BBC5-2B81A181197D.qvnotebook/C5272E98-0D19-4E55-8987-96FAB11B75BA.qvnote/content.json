@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM006",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nPropogation of Augusto's (Emilia's construct). See [construct information ](quiver-note-url/8B89C876-04AE-45DE-833E-72B948EA3F00).\n\n## DNA and Samples\n\nLanes 1-9 were directly dipped from plasmid (mix and go compentent cells) colonies.\n\nPrimers: Are from the tubulin region and given to me by Augusto they were called \"28\" and \"29\". Expected length is 420bp.\n\n## Program\n\n| step | temp       |  time  |\n|------|------------|--------|\n| 1    | 95         | 30 sec |\n| 2    | 95         | 15 sec |\n| 3    | 58         | 1 min  |\n| 4    | 72         | 2 min  |\n| 5    | 72         | 1 min  |\n| 6    | 4          | hold   |\n\n## Results\n\nEvery single colony worked.  All colonies contained construnct.  Next, I need to [recover the plasmid from the culture](https://www.addgene.org/plasmid-protocols/purify-plasmid-dna/).\n\n![Screen Shot 2016-08-23 at 10.35.29AM.png](quiver-image-url/277E019059A0B1C4AABCA2FEC99522C2.png)"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Analysis 4b",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## About \n\nI want to further add all the information I can about the sequences I can by combining all the information I have on the sequences. \n\n#### Things I want to get done: \n\nThis is where you need to print out the data file\nIt would be cool if you printed out what loop you are on\n\nAdd:\n- [ ] Avg length of all monitum species with SD\n- [x] Length of D mel sequence\n- [x] Label with presence or absence of signal during embryogenesis\n- [x] Alignment length\n- [ ] Maybe label each species with the phylogenetic group. This way we can assess phylogenetic distence.\n- [x] sort out which nucleotide change is a conserved change. \n\n## Addinging More Data and Running Analysis\n\nWrote `getBasicStatistics_pipeline_4.py` to start understanding conservation across all the sequences. \n\n## Merging Kvon with Summits\n\nFind and count the number of summits that intersect with what you have:\n\n`bedtools intersect -a ../../4.Dmel.bed.kvon_simple_for_chipseq_15June2016.bed -b ../../../../../BDTNP_DNaseI-peaks_Xli/BDTNP_DNaseI_Dmel_stage10_summits.bed -c > stage10`\n\nDo this for each each stage from the chipseq information.\n\n`sort -k1,1 -k2,2n input.bed > output.bed`\n\nThen append the stage to the file:\n\n`for file in stage*; do awk 'BEGIN{OFS=\"\\t\"}{print $0, FILENAME}' $file > $file.txt; done`\n\nand cat\n\n`cat * >> allStage_summits.txt`\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Learning Pandas",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "[Dataframes in Pandas](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/)\n\nLearning about the dataframe\n\n`dataframe.info()` gives summary\n\n`dataframes.dtypes` describes basic statistics\n\nTo grab columns\n\n`dataframes['column_name'].head()` prints the first 5 entries. \n\nSubsetting\n\nLike users aged 40 AND male from this movie set.\n`print(users[(users.age == 40) & (users.sex == 'M')].head(3))`\n\nprint dataframes.columns.values\n\n\n## Merging\n\nKept returning an empty dataframe when I was trying to merge.  Which is usually either two problems 1. trying to merge different data types or 2. the values didn't match. \n\nFor 1. you just print out the dataframe.info() and make sure that the merging column is the same dtype.\n\nFor 2. you look at the intersection between the two.  For example:\n`print dataFrame2.sequence.isin(dataFrame1.sequence) & dataFrame1.sequence.isin(dataFrame2.sequence)`\n\nIf there are no trues, then they don't match.  Turns out it was a white space issue in my case, in dataFrame1.\n\n`dataFrame1.sequence = [c.strip() for c in dataFrame1.sequence]`\n\n## Renaming\n\n## Reshaping / i.e Pivotting\n\nReshaping in pandas can be found here: [http://pandas.pydata.org/pandas-docs/stable/reshaping.html](http://pandas.pydata.org/pandas-docs/stable/reshaping.html)\n\n\n\n\n\n"
+    }
+  ]
+}

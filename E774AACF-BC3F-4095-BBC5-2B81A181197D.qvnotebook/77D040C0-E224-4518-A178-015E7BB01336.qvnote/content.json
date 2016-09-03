@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM010",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose \n\nI ligated the birchii from PCR CM008, cleaned, and digested using NOTI and BAMH.  Then I ligated with a digested Emilia construct with the same enzymes. I grew colonies on CAM plates, in which many colonies grew.  I then grew in LB overnight at 37 and this PCR is testing the LB broth for prescence of the birchii region.\n\nThe primers flank the construct and through the end of the insert.\n\nI then See [Building the Construct](quiver-note-url/5BF88CDB-05C4-454F-9E42-C33415A7B6D1) for more details.\n## Samples\n\nPrimers: `ES2_confirm_cm` and `Dbir_ES2_R2_cm`\n\n1.)  3:1 contruct:insert 1\n2.)  3:1 contruct:insert 2\n3.)  3:1 contruct:insert 3\n4.)  3:1 contruct:insert 4\n5.)  7:1 contruct:insert 1\n6.)  7:1 contruct:insert 2\n7.)  7:1 contruct:insert 3\n8.)  7:1 contruct:insert 4\n9.)  14:1 contruct:insert 1\n10.) 14:1 contruct:insert 2\n11.) 14:1 contruct:insert 3\n12.) 14:1 contruct:insert 4\n\n## Program\n\n| step | temp       |  time  |\n|------|------------|--------|\n| 1    | 95         | 30 sec |\n| 2    | 95         | 15 sec |\n| 3    | 64         | 1 min  |\n| 4    | 72         | 2 min  |\n| 5    | 72         | 1 min  |\n| 6    | 4          | hold   |"
+    }
+  ]
+}

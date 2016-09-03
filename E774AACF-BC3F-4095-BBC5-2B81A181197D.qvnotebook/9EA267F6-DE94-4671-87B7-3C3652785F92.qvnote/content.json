@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM009",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "I am basically just re-running only D. bockii from PCR CM007 and PCR CM008.  `Dbir_ES2_R2_cm`. The D. bockii bands were not crisp so we are now increasing the annealing temperature to hopefully get crisper lines.\n\n## Samples\n\nPrimers: `Dboc_ES2_F1_cm` and `Dbir_ES2_R2_cm`\n1.)  D. bocki\n2.)  D. bocki\n3.)  D. bocki\n4.)  D. bocki\n5.)  D. bocki\n\n## Program\n\n| step | temp       |  time  |\n|------|------------|--------|\n| 1    | 95         | 30 sec |\n| 2    | 95         | 15 sec |\n| 3    | 66         | 1 min  |\n| 4    | 72         | 2 min  |\n| 5    | 72         | 1 min  |\n| 6    | 4          | hold   |"
+    }
+  ]
+}

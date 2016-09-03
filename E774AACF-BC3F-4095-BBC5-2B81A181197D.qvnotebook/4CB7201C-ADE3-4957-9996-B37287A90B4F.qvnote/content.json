@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM005",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nI gel purfied the three highest temperatures from PCR CM004 of each species and yielded very low DNA concentrations. I think I lost too much DNA to run a successful ligation then gel purification of the material (after ligation).  This PCR is going to make more of the ES2 insert so I can properly run the digest and further gel purfy for ligation. \n\n## DNA \n\nUsed the DNA the was extracted August 15, 2016.\n\n## Samples\n\nPrimers: `Dbir_ES2_F1_cm` and `Dbir_ES2_R1_cm`\nNote: I think I used D. birchii ES2 PCR product from PCR CM004 as the DNA in these three so I did it again (10, 11, and 12), not sure why they all didn't work though.\n\n1.)  D. birchii \n2.)  D. birchii \n3.)  D. birchii\n\nPrimers: `Dboc_ES2_F1_cm` and `Dbir_ES2_R1_cm`\n4.)  D. bocki\n5.)  D. bocki\n6.)  D. bocki\n\nPrimers: `Druf_ES2_F1_cm` and `Dbir_ES2_R1_cm`\n7.)  D. jambulina\n8.)  D. jambulina\n9.)  D. jambulina\n\nPrimers: `Dbir_ES2_F1_cm` and `Dbir_ES2_R1_cm`\n10.) D. birchii\n11.) D. birchii\n12.) D. birchii\n\n\n## Program\n\n| step | temp       |  time  |\n|------|------------|--------|\n| 1    | 95         | 30 sec |\n| 2    | 95         | 15 sec |\n| 3    | 66         | 1 min  |\n| 4    | 72         | 2 min  |\n| 5    | 72         | 1 min  |\n| 6    | 4          | hold   |\n\n## Results\n\n![Screen Shot 2016-08-18 at 1.45.28 PM.png](quiver-image-url/8FDED95F8193D631C7A3B4DB7BAB2852.png)\n\n\n## Conclusions and Next\n\nLooks like they all work well at 66 c, with the exception of D. birchii. I am going to pool all (except the first three) and purify all three of each species together to hopefully yield enough DNA. Purification using DNA Clean and Concentrator by Zymo Reasearch.\n\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Phylogenetic",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Substitution Models \n\nModels of DNA evolution: [https://en.wikipedia.org/wiki/Models_of_DNA_evolution](https://en.wikipedia.org/wiki/Models_of_DNA_evolution)\n\nFrom Wikipedia:\n\nUnderstand all of this:[https://en.wikipedia.org/wiki/Substitution_model]Models of DNA evolution were first proposed in 1969 by Jukes and Cantor,[8] assuming equal transition rates as well as equal equilibrium frequencies for all bases. In 1980 Kimura[9] introduced a model with two parameters: one for the transition and one for the transversion rate and in 1981, Felsenstein[10] proposed a four-parameter model in which the substitution rate corresponds to the equilibrium frequency of the target nucleotide. Hasegawa, Kishino and Yano (HKY)[11] unified the two last models to a five-parameter model. In the 1990s, models similar to HKY were developed and refined by several researchers.[12][13][14]\n\nFor DNA substitution models, mainly mechanistic models (as described above) are employed. The small number of parameters to estimate makes this feasible, but also DNA is often highly optimized for specific purposes (e.g. fast expression or stability) depending on the organism and the type of gene, making it necessary to adjust the model to these circumstances.\n\nUnderstand all of this: https://en.wikipedia.org/wiki/Substitution_model)"
+    }
+  ]
+}

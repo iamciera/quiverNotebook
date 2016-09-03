@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM008",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nThe purpose of this PCR is to clone the Eve-striped 2 enhancer region from three montium species with the eventual goal to add to an MS2 reporter construct to be transformed into _D. melanogaster_. More information in [eve locus](quiver-note-url/3E5FE202-7F6E-41DE-AB96-518E4A78AE7E).\n\nThe ligation did not work for the ES2 construct so I basially repeated PCR5 with new reverse primer with a longer tail `Dbir_ES2_R2_cm`.\n\nAlso, PCRCM007 did not work, so I am adding a gradient to see if the primers need a specific annealing temperature.\n\n## DNA extraction \n\nI used the genomic DNA extract method given to me from Allie. It is based off the Qiagen Gentra Puregene Handbook for purification of archive quality DNA using the \"tissue\" protocol. Extracted on August 15, 2016.\n\n### PCR CM004 birch\n1-5\nDNA: _Drosophila birchii_ \nPrimers: `Dbir_ES2_F1_cm` and `Dbir_ES2_R2_cm`\n\n### PCR CM004 bock\n6-10\nDNA: _Drosophila bocki_ \nPrimers: `Dboc_ES2_F1_cm` and `Dbir_ES2_R2_cm`\n\n### PCR CM004 jam\n10-15\nDNA: _Drosophila jambulina_ \nPrimers: `Druf_ES2_F1_cm` and `Dbir_ES2_R2_cm`\n\n## PCR Set-up \n\nUsed Gotaq\n\n## Program - Gradient\n\n| step | temp       |  time  |\n|------|------------|--------|\n| 1    | 95         | 30 sec |\n| 2    | 95         | 15 sec |\n| 3    | Gradient   | 1 min  |\n| 4    | 72         | 2 min  |\n| 5    | 72         | 1 min  |\n| 6    | 4          | hold   |\n\nRepeat Steps 2 - 4: 30X\n\n###Step 3 Temp\n\n1. 54.4\n2. 56.7\n3. 59.3\n4. 62.0\n5. 64.7\n\n## Results\n\n![Screen Shot 2016-08-31 at 3.56.19 PM.png](quiver-image-url/1F62E0DF6702EF3E29A894079DD54A35.png)\n\nI bet I just didn't set up PCR CM007 right. This looks good.  I am going to just pool the products of jambulina and birchii and clean up.  Then I am going to run bocki at a higher temperature.  This sucks. \n"
+    }
+  ]
+}
