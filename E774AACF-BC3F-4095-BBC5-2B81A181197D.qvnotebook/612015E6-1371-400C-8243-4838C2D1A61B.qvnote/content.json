@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM011",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose \n\nI ligated the birchii from PCR CM008, cleaned, and digested using NOTI and BAMH.  Then I ligated with a digested Emilia construct with the same enzymes. I grew colonies on CAM plates, in which many colonies grew.  I then grew in LB overnight at 37 and this PCR is testing the LB broth for prescence of the ES2 bocki and jambulina region.\n\nThe primers flank the construct and through the end of the insert.\n\nI then See [Building the Construct](quiver-note-url/5BF88CDB-05C4-454F-9E42-C33415A7B6D1) for more details.\n## Samples\n\nPrimers: `ES2_confirm_cm` and `Dbir_ES2_R2_cm`\n\n1.)  3:1 contruct:insert 1 bocki\n2.)  3:1 contruct:insert 2 bocki\n3.)  3:1 contruct:insert 3 bocki\n4.)  3:1 contruct:insert 4 bocki\n5.)  3:1 contruct:insert 5 bocki\n6.)  3:1 contruct:insert 6 bocki\n7.)  7:1 contruct:insert 1 bocki\n8.)  7:1 contruct:insert 2 bocki\n9.)  7:1 contruct:insert 3 bocki\n10.) 7:1 contruct:insert 4 bocki\n11.) 7:1 contruct:insert 5 bocki\n12.) 7:1 contruct:insert 6 bocki\n13.) 14:1 contruct:insert 1 jambulina\n14.) 14:1 contruct:insert 2 jambulina\n15.) 14:1 contruct:insert 3 jambulina\n\n## Program\n\n| step | temp       |  time  |\n|------|------------|--------|\n| 1    | 95         | 30 sec |\n| 2    | 95         | 15 sec |\n| 3    | 64         | 1 min  |\n| 4    | 72         | 2 min  |\n| 5    | 72         | 1 min  |\n| 6    | 4          | hold   |\n\n## Results\n\n![Screen Shot 2016-09-07 at 5.09.56 PM.png](quiver-image-url/AD642DC16DC0DC08AE3F4EE193B33B9F.png)"
+    }
+  ]
+}
