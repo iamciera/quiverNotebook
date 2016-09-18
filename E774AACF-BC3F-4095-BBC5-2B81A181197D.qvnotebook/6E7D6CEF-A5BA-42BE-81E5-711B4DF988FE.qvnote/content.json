@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM012",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nThe purpose of this PCR is to clone the Eve-striped 2 enhancer region from two montium species with the eventual goal to add to an MS2 reporter construct to be transformed into _D. melanogaster_. More information in [eve locus](quiver-note-url/3E5FE202-7F6E-41DE-AB96-518E4A78AE7E).\n\n## DNA extraction \n\nI used the genomic DNA extract method given to me from Allie. It is based off the Qiagen Gentra Puregene Handbook for purification of archive quality DNA using the \"tissue\" protocol. Extracted on September 14, 2016.\n\n### PCR CM012 melanogaster\n1-8\nDNA: _Drosophila birchii_ \nPrimers: `Dbir_ES2_F1_cm` and `Dbir_ES2_R2_cm`\n\n### PCR CM012 rufa\n9-16\nDNA: _Drosophila bocki_ \nPrimers: `Dboc_ES2_F1_cm` and `Dbir_ES2_R2_cm`\n\nUsed Gotaq\n\n## Program - Gradient\n\n| step | temp       |  time  |\n|------|------------|--------|\n| 1    | 95         | 30 sec |\n| 2    | 95         | 15 sec |\n| 3    | Gradient   | 1 min  |\n| 4    | 72         | 2 min  |\n| 5    | 72         | 1 min  |\n| 6    | 4          | hold   |\n\nRepeat Steps 2 - 4: 30X\n\n###Step 3 Gradient Temp\n\n1. 56.1\n2. 57.6\n3. 59.5\n4. 61.6\n5. 63.8\n6. 65.9\n7. 67.8\n8. 69.9\n\n![Screen Shot 2016-09-15 at 2.29.11 PM.png](quiver-image-url/F939D83A50B5B0C89BF023AFAC923270.png) \n"
+    }
+  ]
+}
