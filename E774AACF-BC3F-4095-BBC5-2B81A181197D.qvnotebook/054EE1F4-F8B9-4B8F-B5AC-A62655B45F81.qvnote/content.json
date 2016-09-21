@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM013_b",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nThis PCR was testing colonies for confirmation of construct and insert. I grew up many different ligations for three species D. Jam, D. mel, D. rufa (12 plates).  **There were only six colonies found in all 12 plates. **  I tested all of them for construct with correct insert.\n\nThe primers flank the construct and through the end of the insert.\n\nI then See [Building the Construct](quiver-note-url/5BF88CDB-05C4-454F-9E42-C33415A7B6D1) for more details.\n\n## Samples\n\nPrimers: `ES2_confirm_cm` and `Dbir_ES2_R2_cm`\n\n1.  D. jambulina\n2.  D. melanogastor 1\n3.  D. melanogastor 2\n4.  D. rufa 1\n5.  D. rufa 2\n6.  D. rufa 3\n\n## Program\n\n| step | temp       |  time  |\n|------|------------|--------|\n| 1    | 95         | 30 sec |\n| 2    | 95         | 15 sec |\n| 3    | 64         | 1 min  |\n| 4    | 72         | 2 min  |\n| 5    | 72         | 1 min  |\n| 6    | 4          | hold   |\n\n\n## Results\n\nThe reason it is so slight is because it is the bottom of another gel.\n\n\n![Screen Shot 2016-09-21 at 11.58.07 AM.png](quiver-image-url/F6D244137C0CB3B1C5EE3E756C934641.png)\n\nLooks as though there is construct with presence in all. \n\n\n"
+    }
+  ]
+}

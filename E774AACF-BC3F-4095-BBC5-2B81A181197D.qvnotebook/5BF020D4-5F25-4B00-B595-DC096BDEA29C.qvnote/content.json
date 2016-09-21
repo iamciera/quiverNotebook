@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM013_a",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nTesting the LB broth after re-growing D. birchii and D. bocki colonies. I grew up six colonies each. This PCR was testing those 12 colonies confirmation of construct and insert.\n\nThe primers flank the construct and through the end of the insert.\n\nI then See [Building the Construct](quiver-note-url/5BF88CDB-05C4-454F-9E42-C33415A7B6D1) for more details.\n\n## Samples\n\nPrimers: `ES2_confirm_cm` and `Dbir_ES2_R2_cm`\n\n1-6 - D. birchii LB \n7-9 - D. bocki LB \n\n## Program\n\n| step | temp       |  time  |\n|------|------------|--------|\n| 1    | 95         | 30 sec |\n| 2    | 95         | 15 sec |\n| 3    | 64         | 1 min  |\n| 4    | 72         | 2 min  |\n| 5    | 72         | 1 min  |\n| 6    | 4          | hold   |\n\n## Results\n\nI ran the gel too long and ran off the bocki samples. \n\n![Screen Shot 2016-09-21 at 11.48.10 AM.png](quiver-image-url/9589C029EC3029841FFA59AC12FB1EED.png)\n\n![Screen Shot 2016-09-21 at 11.53.42 AM.png](quiver-image-url/60BA72AAC2E6625AA1136CC1A9F6DE41.png)\n\nThere is presence in all. \n\n\n\n"
+    }
+  ]
+}
