@@ -2,8 +2,8 @@
   "title": "PCR CM014",
   "cells": [
     {
-      "type": "text",
-      "data": ""
+      "type": "markdown",
+      "data": "## Purpose\n\nThis PCR was testing colonies for confirmation of construct and insert. I did the PCR on both the LB broth and the cleaned DNA using the MIDI kit.\n\nThe primers flank the construct and through the end of the insert.\n\nI then See Building the Construct for more details.\n\n\n## Samples \n\nPrimers: `ES2_confirm_cm` and `Dbir_ES2_R2_cm`\n\n### DNA 1 ul Cleaned product\n\n1.  D. birchii\n2.  D. bocki\n3.  D. jambulina\n4.  D. mealnogaster\n5.  D. rufa \n\n### DNA 1 ul LB broth\n\n1.  D. birchii\n2.  D. bocki\n3.  D. jambulina\n4.  D. mealnogaster\n5.  D. rufa \n\n## Program\n\n| step | temp       |  time  |\n|------|------------|--------|\n| 1    | 95         | 30 sec |\n| 2    | 95         | 15 sec |\n| 3    | 64         | 1 min  |\n| 4    | 72         | 2 min  |\n| 5    | 72         | 1 min  |\n| 6    | 4          | hold   |\n\n\n## Results\n\n![Screen Shot 2016-09-21 at 12.32.36 PM.png](quiver-image-url/8C7981E5BD67ED34E183559B8CAF5D6C.png)"
     }
   ]
 }
