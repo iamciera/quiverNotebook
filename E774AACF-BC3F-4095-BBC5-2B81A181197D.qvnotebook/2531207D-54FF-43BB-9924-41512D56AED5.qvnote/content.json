@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM016",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nIsolating insert for gibson assembly from the montium species.\n\n## Samples\n\nprimers: \nruf_gibson_F1_cm\tccagatccaggtcgcagcGTTACCCGGTACTGCATAACA\nruf_gibson_R1_cm\ttggcaataagtaccgtagAGTTGCTGGGACTTAATTTGA\n\n1. D. bocki\n2. D. jambulina\n3. D. melanogastor\n4. D. rufa\n\n\n## Program\n\nSamples 1-4\n\n| step | temp       |  time  |\n|------|------------|--------|\n| 1    | 95         | 30 sec |\n| 2    | 95         | 15 sec |\n| 3    | 70         | 1 min  |\n| 4    | 72         | 2 min  |\n| 5    | 72         | 1 min  |\n| 6    | 4          | hold   |\n\n![Screen Shot 2016-09-29 at 3.29.49 PM.png](quiver-image-url/CC9DA570076C6B46FE0F194C69A243C6.png)\n\n\n"
+    }
+  ]
+}

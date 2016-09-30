@@ -1,0 +1,9 @@
+{
+  "title": "Other 27 species ",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "- [ ] Work with same bed file. So work with dm6\n\n\n### Species that work with DM6\n\nD. melanogaster/A. gambiae (anoGam1)\nD. melanogaster/D. persimilis (droPer1)\nD. melanogaster/D. sechellia (droSec1)\nD. melanogaster/D. simulans (droSim1)\n\n### Species that work with DM3\n\nD. melanogaster/D. pseudoobscura (dp4)\nD. melanogaster/D. pseudoobscura (dp3)\nD. melanogaster/D. ananassae (droAna3)\nD. melanogaster/D. ananassae (droAna2)\nD. melanogaster/D. erecta (droEre2)\nD. melanogaster/D. erecta (droEre1)\nD. melanogaster/D. grimshawi (droGri2)\nD. melanogaster/D. mojavensis (droMoj3)\nD. melanogaster/D. persimilis (droPer1)\nD. melanogaster/D. sechellia (droSec1)\nD. melanogaster/D. simulans (droSim1)\nD. melanogaster/D. virilis (droVir3)\nD. melanogaster/D. willistoni (droWil1)\nD. melanogaster/D. yakuba (droYak2)\nD. melanogaster/A. gambiae (anoGam1)\nD. melanogaster/A. mellifera (apiMel3)\nD. melanogaster/T. castaneum (triCas2)\n\nI will just go ahead and do liftover of melanogaster from the dm6 to dm3 and proceed from there. Which kind sucks, but I think it would be the easiest. \n"
+    }
+  ]
+}
