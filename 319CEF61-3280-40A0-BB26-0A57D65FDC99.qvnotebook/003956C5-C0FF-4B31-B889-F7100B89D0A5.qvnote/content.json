@@ -1,9 +1,9 @@
 {
-  "title": "Gibson Assembly",
+  "title": "Building Constructs III - Gibson Assembly",
   "cells": [
     {
       "type": "markdown",
-      "data": "Okay, so I should have just sat down and figured this out all at once instead of trying to save what I was trying to accomplish before. \n\nHere is a list of primers:\n\n    jam_gibson_F1_cm\tccagatccaggtcgcagcATGCGTTGTTACCCGGTACT\n    jam_gibson_R1_cm\ttggcaataagtaccgtagGTTGCTGGGACTTAATTTGA\n    mel_gibson_F1_cm\tccagatccaggtcgcagcGTTACCCGGTACTGCATAACA\n    mel_gibson_R1_cm\ttggcaataagtaccgtagGTTGCCGGGACTTAATTTGA\n    ruf_gibson_F1_cm\tccagatccaggtcgcagcGTTACCCGGTACTGCATAACA\n    ruf_gibson_R1_cm\ttggcaataagtaccgtagAGTTGCTGGGACTTAATTTGA\n    \nAll of the reverse are basically the same. These can be used interchangably.\n\nThe universal ones can be ruf_gibson_F1_cm and "
+      "data": "Okay, so I should have just sat down and figured this out all at once instead of trying to save what I was trying to accomplish before. \n\nHere is a list of primers:\n\n    jam_gibson_F1_cm\tccagatccaggtcgcagcATGCGTTGTTACCCGGTACT\n    jam_gibson_R1_cm\ttggcaataagtaccgtagGTTGCTGGGACTTAATTTGA\n    mel_gibson_F1_cm\tccagatccaggtcgcagcGTTACCCGGTACTGCATAACA\n    mel_gibson_R1_cm\ttggcaataagtaccgtagGTTGCCGGGACTTAATTTGA\n    ruf_gibson_F1_cm\tccagatccaggtcgcagcGTTACCCGGTACTGCATAACA\n    ruf_gibson_R1_cm\ttggcaataagtaccgtagAGTTGCTGGGACTTAATTTGA\n    \nAll of the reverse are basically the same. These can be used interchangably.\n\nThe universal ones can be ruf_gibson_F1_cm and ruf_gibson_R1_cm\n\n## update October 2, 2016\n\nI did three gibson assemblies (Gibson 001 (rufa), Gibson 002(rufa), and Gibson 003 (birchii).\n\nThese were transformed into the electorcompetent DH5alpha. Gibson 001 arched, Gibson 002 there were no colonies, and Gibson 003 had around 20 colonies. \n\n## update October 2, 2016\n\nI did three more res\n\n## Gibson 003 - ES2-MS2-Birchii\n\nSee Gibson \n\n"
     }
   ]
 }

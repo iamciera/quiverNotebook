@@ -1,0 +1,9 @@
+{
+  "title": "Gibson 002- MS2-ES2- Rufa - Failed.",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Insert ES2\n\nThe insert came from PCR CM016, sample 4, gel purified. Concentration only 7.2 ng / ul.\nSee [PCR CM016](quiver-note-url/2531207D-54FF-43BB-9924-41512D56AED5).\n\n* Basically the same as Gibson 1 except the reaction was a total of 20ul instead of 10.\n\n## Construct\n\nConstruct is the Emilia ES2 construct from Augusto digested by Bam-HF and NotI-HF. The concentration of the tube was 74 ng ul.\n\n## Reaction\n\n| reagent | ul   |\n|---------|------|\n| insert  | 9.5  | \n|construct| .5   |\n| Gibson  | 10   | \n\n## Transformation 1  \n\nDH5alpha electocompetent.  \n\nGrown at 30c for 30 hours. \n\n## Colonies  1 - No \n\n"
+    }
+  ]
+}

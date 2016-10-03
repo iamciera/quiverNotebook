@@ -1,0 +1,9 @@
+{
+  "title": "Gibson 003 - MS2-ES2-Birchii",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Insert ES2\n\nThe insert came from PCR CM015, sample 1.\nSee [PCR CM015](quiver-note-url/9000818B-5AC4-4900-948F-B8BD9D843EB4). Concentration 199 ng/ul. \n\n## Construct\n\nConstruct is the Emilia ES2 construct from Augusto digested by Bam-HF and NotI-HF. The concentration of the tube was 74 ng ul.\n\n## Reaction\n\n| reagent | ul   |\n|---------|------|\n| insert  | 2    | \n|construct| 1    |\n| Gibson  | 5    | \n| water   | 2    |\n\nGrown at 30c for 30 hours. \n\n## Colonies - YES\n\nCarb antibotic.\nGrown at 30c shaker for 30 hours, 10 were tested for presence.  **#8** was grown in 100 ml LB. Glycerol stocks were made.\n\n## DNA Clean up - Awesome\n\nMIDI prep concentration from nanodrop is 4113 ng/ul. \n- [ ] dilute 1:5 and measure concentration with Quibit\n- [ ] Dilute\n- [ ] Sequence\n- [ ] restriction digest\n- [ ] send off to rainbow\n"
+    }
+  ]
+}

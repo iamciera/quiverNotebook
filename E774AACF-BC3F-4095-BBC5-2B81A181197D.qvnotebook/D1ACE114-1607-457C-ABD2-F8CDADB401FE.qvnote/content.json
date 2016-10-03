@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM019",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nIsolating insert for gibson assembly from the montium species.\n\n## Samples\n\nprimers:\nruf_gibson_F1_cm ccagatccaggtcgcagcGTTACCCGGTACTGCATAACA\nruf_gibson_R1_cm tggcaataagtaccgtagAGTTGCTGGGACTTAATTTGA\n\n2.) D. bocki\n3.) D. jambulina\n4.) D. melanogastor\n5.) D. rufa\n6.) D. bocki\n7.) D. jambulina\n8.) D. melanogastor\n9.) D. rufa\n \n* the reason it starts as #2 is because I accidently added bocki to postiotion 1 and 2, so I omitted 1.  I kept the original numbering to not confuse myself in the tube positions. \n\n\n## Program\n\nSamples 2-9\n\nstep\ttemp\ttime\n1\t95\t30 sec\n2\t95\t15 sec\n3\t69\t1 min\n4\t72\t2 min\n5\t72\t1 min\n6\t4\thold\n\nCycles = 29\n\n## Results \n\n![Screen Shot 2016-10-02 at 12.20.02 PM.png](quiver-image-url/0B3BF77613FC772276B6E3E78FF8E069.png)\n\nConcentrations from nano drop\n\n2.) 126.8 ng/ul\n3.) 137.0 ng/ul\n4.) 121.6 ng/ul\n5.) 118.3 ng/ul\n\n\n\n"
+    }
+  ]
+}

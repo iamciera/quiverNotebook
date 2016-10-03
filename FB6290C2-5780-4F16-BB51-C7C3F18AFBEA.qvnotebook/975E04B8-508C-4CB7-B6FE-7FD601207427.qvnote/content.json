@@ -1,0 +1,9 @@
+{
+  "title": "Gibson 004 - MS2-ES2-Jambulina",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Insert ES2\n\nThe insert came from PCR CM019, sample 3. Straight from PCR, there is some smearing. The concentration was 137 ng/ul. See [PCR CM019](quiver-note-url/D1ACE114-1607-457C-ABD2-F8CDADB401FE).  \n\n## Construct\n\nConstruct is the Emilia ES2 construct from Augusto digested by Bam-HF and NotI-HF. The concentration of the tube was 74 ng ul.\n\n## Reaction\n\n| reagent | ul   |\n|---------|------|\n| insert  | 2.5  | \n|construct| 1    |\n| Gibson  | 5    | \n| water   | 1.5  |\n\nGrown in Carb LB at 30c for 30 hours. \n\n## Colonies \n\n"
+    }
+  ]
+}
