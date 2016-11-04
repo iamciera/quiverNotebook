@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM023",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nIsolating insert for gibson assembly from the montium species.\n\n## Samples\n\nprimers:\ncm_A_Gibs_F1\tcgtcttcaagaattcgtttGTTACCCGGTAMTGCATAAC\ncm_A_Gib_R1\t CAGGAATCGGAAACTTTAAGTTGCTGGGACTTAATTTG\n\n1.) D. birchii\n2.) D. bocki\n3.) D. jambulina\n4.) D. melanogastor\n5.) D. rufa\n\n\n\n## Program\n\nSamples 2-9\n\nstep\ttemp\ttime\n1\t95\t30 sec\n2\t95\t15 sec\n3\t65\t1 min\n4\t72\t2 min\n5\t72\t1 min\n6\t4\thold\n\nCycles = 29\n\n## Results \n![PCR cm023.png](quiver-image-url/7079A191D0435DCE58278DBE6517FB2B.png)\n\n\nConcentrations from nano drop\n\n1. birchii 21.6 ug/ml\n2. bocki 23.6 ug/ml\n3. jambulina too low\n4. melanogastor 32.9 ug/ml\n5. rufa 133 ng/ml\n\n\n\n"
+    }
+  ]
+}
