@@ -12,7 +12,7 @@
     },
     {
       "type": "text",
-      "data": "<br>"
+      "data": "<h1>UPDATE November 7, 2016</h1><div><br></div><div>The primers worked well for ES2 isolation (See&nbsp;<a href=\"quiver-note-url/9E674BB0-BD3C-4D7F-A16A-884BF109F73B\">PCR CM023</a>). &nbsp;I purified these and&nbsp;&nbsp;ran gibson assembly on all the inserts, neutral sequence and purified PmeI digested construct. It appears as though there are no inserts in the construct (See&nbsp;<a href=\"quiver-note-url/DC3DC915-0A64-4F61-966E-16A116468536\">PCR CM024</a>)&nbsp;. I think this has to do with re-circularzation with being that &nbsp;PmeI is a blunt end cut. &nbsp;&nbsp;</div><div><br></div><h2>There are two options for going ahead</h2><div><br></div><div>1. Retry using shrimp alkaline phosphatase.</div><div>2. amplify neutral sequence so that we can insert at a sticky end cutting site (NotI).&nbsp;</div><div>3. screen more colonies.</div><div><br></div><div><br></div><div><br></div>"
     }
   ]
 }

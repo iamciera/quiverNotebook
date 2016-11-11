@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM026",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nIsolating insert for gibson assembly from the montium species.\n\n## Samples \n\n25 ul each, but ran in three wells, so I had a total of 75ul per sample. I learned that when the PCR sample is run at 50ul the sample may not be evenly heated, so you get smearing. Huh. Who knew?\n\nprimers:\ncm_A_Gibs_F1\tcgtcttcaagaattcgtttGTTACCCGGTAMTGCATAAC\ncm_A_Gib_R1\t CAGGAATCGGAAACTTTAAGTTGCTGGGACTTAATTTG\n\n1.) D. melanogastor\n2.) D. rufa\n\n## Program\n\nSamples 2-9\n\nstep\ttemp\ttime\n1\t95\t30 sec\n2\t95\t15 sec\n3\t65\t1 min\n4\t72\t2 min\n5\t72\t1 min\n6\t4\thold\n\nCycles = 29\n\n## Results \n![Screen Shot 2016-11-11 at 10.09.40 AM.png](quiver-image-url/2975056817E0F624669448FEB697D7C4.png)\n\n\nConcentrations from nano drop after cleaning\n\n1. 70.3 ng/ul\n2. 76.9 ng/ul\n"
+    }
+  ]
+}

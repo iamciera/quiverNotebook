@@ -1,0 +1,9 @@
+{
+  "title": "PCR CM024",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "## Purpose\n\nConfirming presence of insert from gibson assemblies in Bocki, Birchii, and mel.\n\n## Samples\n\nprimers:\ncm_Ams2_cnfrm_r1   cctctaggtccacgggactg\ncm_Ams2_cnfrm_f1   gcgacacggaaatgttgaat\n\n1-10: Birchii colonies 1:10\n11-20: Bocki colonies 1:10\n21-30: Melanogaster colonies 1:10\n\n## Program\n\nstep\ttemp\ttime\n1\t95\t30 sec\n2\t95\t15 sec\n3\t64\t1 min\n4\t72\t2 min\n5\t72\t1 min\n6\t4\thold\n\nCycles = 29\n\n## Results \n\n![Screen Shot 2016-11-07 at 10.37.06 AM.png](quiver-image-url/FC7714BB2CAADCFAF312BC7BFA9A8A6A.png)\n\n![Screen Shot 2016-11-07 at 10.36.40 AM.png](quiver-image-url/DC2F7F3307C7A8E1EDBF4D76C3F3742A.png)\n\n\n## Conclusion\n\nIt did not work. Likely because the constructs re-circularized. I will try again and add shrimp phosphotase. \n\n\n\n"
+    }
+  ]
+}
