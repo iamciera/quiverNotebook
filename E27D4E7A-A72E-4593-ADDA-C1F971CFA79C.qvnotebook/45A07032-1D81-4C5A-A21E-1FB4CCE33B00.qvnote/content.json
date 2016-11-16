@@ -3,7 +3,16 @@
   "cells": [
     {
       "type": "text",
-      "data": "The goal of this analysis is to see how well the scaffolds are to isolate the regions around the enhancers.<div><br></div><div>It might be nice to have the whole sequence then have a range that specifies which area. Is there conservation between all the species? &nbsp;</div><div><br></div><div>First, let’s see if the scoffolds even exists.</div><div><br></div><div>What is said in the Kvon data about the nearest chromosomes?</div><div><br></div><div>First I need to make sure I have the proper ranges… Do in R.</div>"
+      "data": "The goal of this analysis is to see how well the scaffolds are to isolate the regions around the enhancers.<div><br></div><div>It might be nice to have the whole sequence then have a range that specifies which area. Is there conservation between all the species? &nbsp;</div><div><br></div><div>First, let’s see if the scoffolds even exists.</div><div><br></div><div>What is said in the Kvon data about the nearest chromosomes?</div><div><br></div><div>First I need to make sure I have the proper ranges… Do in R.</div><div><br></div><div><br></div>"
+    },
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "# Where is the kvon data?  \n\n# bed file of kvon\n\n# bed file of intronic regions\n\n# bed file of \n\n"
+    },
+    {
+      "type": "markdown",
+      "data": "## Merging Kvon with Summits\n\nFind and count the number of summits that intersect with what you have:\n\n`bedtools intersect -a ../../pipeline_output_8/geneModels_flybase/cleanedFlybaseGenesOnly_15Nov2016.BED -b ../4.Dmel.bed.kvon_simple_for_chipseq_15June2016.bed -c >> ../../pipeline_output_8/whereAreTheKvonregionsLocated.txt`\n\n`bedtools intersect -a ../../pipeline_output_8/geneModels_flybase/cleanedFlybaseGenesOnly_15Nov2016.BED -b ../4.Dmel.bed.kvon_simple_for_chipseq_15June2016.bed -c >> ../../pipeline_output_8/whereAreTheKvonregionsLocated.txt`\n"
     }
   ]
 }
